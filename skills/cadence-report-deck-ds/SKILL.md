@@ -1,6 +1,7 @@
 ---
 name: cadence-report-deck-ds
 description: Build the "SEC DS_Monthly Report" Google Slides deck from Samsung DS's reply to the SECDS report data-request email - validate the attachments, analyze usage, copy last month's deck and update Section 1. Use when the user types /cadence-report-deck-ds or asks to make the SECDS monthly report slides.
+allowed-tools: mcp__Gmail__search_threads, mcp__Gmail__get_thread, mcp__Gmail__download_gmail_attachment, mcp__Gmail__list_labels, mcp__Gmail__create_label, mcp__Gmail__label_thread, mcp__Gmail__unlabel_thread, mcp__Gmail__label_message, mcp__Google_Drive__search_files, mcp__Google_Drive__get_file_metadata, mcp__Google_Drive__download_file_content, mcp__Google_Drive__create_file, mcp__Google_Drive__update_file
 argument-hint: "[YYYY-MM]"
 ---
 
