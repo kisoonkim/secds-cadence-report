@@ -1,0 +1,5 @@
+{
+  "name": "secds-cadence-report",
+  "version": "0.4.0",
+  "description": "SEC DS monthly/quarterly cadence report: draft and send the data-request email (/cadence-report-email-ds) and build the Google Slides report from the reply (/cadence-report-deck-ds)."
+}
