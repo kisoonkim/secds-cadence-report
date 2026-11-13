@@ -1,6 +1,7 @@
 ---
 name: cadence-report-email-ds
 description: Draft (and, on the user's "send", send) the SEC DS monthly or quarterly report data-request email to Samsung DS ("SECDS) {M}월 월간 보고서 작성을 위한 파일 송부 요청"). Use when the user types /cadence-report-email-ds or asks to create the SECDS cadence report request email.
+allowed-tools: mcp__Gmail__create_draft, mcp__Gmail__delete_draft, mcp__Gmail__list_drafts, mcp__Gmail__search_threads, mcp__Gmail__get_thread, mcp__Gmail__list_labels, mcp__Gmail__create_label, mcp__Gmail__label_thread
 argument-hint: "[YYYY-MM] [monthly|quarterly] [이름] [Knox 메일]"
 ---
 
